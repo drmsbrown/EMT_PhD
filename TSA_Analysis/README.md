@@ -17,4 +17,7 @@ Tyramide Signal Amplification (TSA) is a multiround, multiplexed method of stain
   + Cell Adherens Junction: E-Cadherin
 2.  Stained tissue slides are imaged and Regions of Interest (ROIs) are chosen to represent and encompass the totality of the tumor
 3.  Imaging analysis conducted using Perkin Elmer software to segment cells as well as assign and train algorithm to detect cellular phenotypes based on co-expression and localization of markers
-4. 
+4. Cellular locations, phenotypes, and marker expression exported for futher analysis
+
+# Analysis 
+
