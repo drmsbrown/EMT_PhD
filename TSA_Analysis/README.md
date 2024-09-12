@@ -6,6 +6,7 @@ Full methods and results can be found in the corresponding:
 - results paper: https://doi.org/10.1126/sciadv.abj8002
 
 ## Brief overview of staining method 
+
 Tyramide Signal Amplification (TSA) is a multiround, multiplexed method of staining FFPE tissue with high specificity for multiple overlapping markers. It uses enzyme-mediated catalysis of HRP-conjugated secondary antibodies to deposit a labeled tyramide or OPAL fluorophore at the site of primary antibody detection, which remains in place after primary and secondary antibodies are stripped away by a microwaving step. The order and concentration of primary and secondary antibodies, as well as pairing with each OPAL fluorophore must be carefully considered based on overall intensity of protein expression and detectability of epitopes. 
 
 ![](https://ars.els-cdn.com/content/image/1-s2.0-S0091679X22000796-f08-01-9780323900188.jpg)
@@ -32,6 +33,7 @@ _Note: TSA_Analysis_annotated.R contains an earlier version of the code but more
 
 ### Generation of heterogeneity scores can be found in the following github location 
 https://github.com/drmsbrown/cell-heterogeneity-emtscore
+
 `TMA_TSA_EMT&Het_annotated.R` provides code to integrate EMT and heterogeneity scores from Machine learning algorithm and provides plots 
 
 ![](https://ars.els-cdn.com/content/image/1-s2.0-S0091679X22000796-f08-02-9780323900188.jpg)
