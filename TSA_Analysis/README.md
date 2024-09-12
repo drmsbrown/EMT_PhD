@@ -34,4 +34,4 @@ _Note: TSA_Analysis_annotated.R contains an earlier version of the code but more
 https://github.com/drmsbrown/cell-heterogeneity-emtscore
 `TMA_TSA_EMT&Het_annotated.R` provides code to integrate EMT and heterogeneity scores from Machine learning algorithm and provides plots 
 
-![]https://ars.els-cdn.com/content/image/1-s2.0-S0091679X22000796-f08-02-9780323900188.jpg
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0091679X22000796-f08-02-9780323900188.jpg)
