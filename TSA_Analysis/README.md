@@ -21,3 +21,17 @@ Tyramide Signal Amplification (TSA) is a multiround, multiplexed method of stain
 
 # Analysis 
 
+`TMA_TSA_Analysis_annotated.R` 
+- annotates inform file outputs with sample IDs
+- Formatted for use with ROIs from a tumor slice or from Tumor Microarray punches
+- Checks mean counts to confirm good overall staining. Can be done BEFORE phenotyping
+- Compiles Total normalized Counts from the entire cell for each sample. This can be altered if there is highly specific cell localization i.e. choosing "Nucleus" or "Cellular Membrane" for specific markers
+- Removes cells that have not been phenotyped and tidies up data and normalize markers to a percentile 0-1 for violin plots
+
+_Note: TSA_Analysis_annotated.R contains an earlier version of the code but more or less does the same things_
+
+### Generation of heterogeneity scores can be found in the following github location 
+https://github.com/drmsbrown/cell-heterogeneity-emtscore
+`TMA_TSA_EMT&Het_annotated.R` provides code to integrate EMT and heterogeneity scores from Machine learning algorithm and provides plots 
+
+![]https://ars.els-cdn.com/content/image/1-s2.0-S0091679X22000796-f08-02-9780323900188.jpg
