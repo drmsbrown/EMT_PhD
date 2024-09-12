@@ -1,6 +1,6 @@
 #################################
 #Analyze mutations from WES
-#Author: msbdith Brown
+#Author: Meredith Brown
 #4/20/20
 #################################
 rm(list=ls())
